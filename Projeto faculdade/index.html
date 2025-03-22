@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Faculdade de Aviação - Transforme seu sonho de voar em realidade. Cursos de piloto, comissário de bordo e mais.">
+    <title>Faculdade de Aviação</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            position: relative;
+            background: url('https://media.gazetadopovo.com.br/2019/08/26152145/ca%C3%A7a-brasileiro-gripe-e-primeiro-voo1-960x540.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6); /* Sobreposição escura */
+            z-index: 1;
+        }
+        header .header-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            padding: 1rem;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        header p {
+            font-size: 1.3rem;
+            margin: 1rem 0 2rem;
+        }
+        .cta-button {
+            background: #ffcc00;
+            color: #004080;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 5px;
+            display: inline-block;
+            transition: background 0.3s ease;
+        }
+        .cta-button:hover {
+            background: #e6b800;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #004080;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        section h2 {
+            color: #004080;
+        }
+        .courses {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+        }
+        .course {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            width: 300px;
+            text-align: left;
+        }
+        .price {
+            font-weight: bold;
+            color: #004080;
+        }
+        .discount {
+            text-decoration: line-through;
+            color: #d00;
+            margin-right: 0.5rem;
+        }
+        .location {
+            max-width: 800px;
+            margin: 2rem auto;
+            text-align: center;
+        }
+        .map {
+            margin-top: 1rem;
+            border: none;
+            width: 100%;
+            height: 300px;
+            border-radius: 5px;
+        }
+        footer {
+            background: #004080;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Faculdade de Aviação</h1>
+            <p>Prepare-se para alçar voos mais altos com nossos cursos especializados!</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="sobrenos.html">Sobre Nós</a>
+        <a href="https://canvas.instructure.com/login/canvas" target="_blank">EAD</a>
+        <a href="adimissao.html">Admissão</a>
+        <a href="contato.html">Contato</a>
+        <a href="duvidas.html">Dúvidas</a>
+        <a href="cursos.html">Cursos</a>
+    </nav>
+
+    <section id="cursos">
+        <h2>Nossos Cursos</h2>
+        <div class="courses">
+            <div class="course">
+                <h3>Piloto Comercial</h3>
+                <p>Formação completa para se tornar um piloto profissional.</p>
+                <p class="price">
+                    <span class="discount">R$ 20.000</span> R$ 18.000
+                </p>
+            </div>
+            <div class="course">
+                <h3>Comissário de Bordo</h3>
+                <p>Aprenda tudo sobre segurança e atendimento a bordo.</p>
+                <p class="price">
+                    <span class="discount">R$ 8.000</span> R$ 6.500
+                </p>
+            </div>
+            <div class="course">
+                <h3>Engenharia Aeronáutica</h3>
+                <p>Projete e desenvolva aeronaves de última geração.</p>
+                <p class="price">
+                    <span class="discount">R$ 35.000</span> R$ 32.000
+                </p>
+            </div>
+            <div class="course">
+                <h3>Piloto de Helicóptero</h3>
+                <p>Treinamento prático e teórico para pilotar helicópteros com segurança.</p>
+                <p class="price">
+                    <span class="discount">R$ 25.000</span> R$ 22.000
+                </p>
+            </div>
+            <div class="course">
+                <h3>Manutenção de Aeronaves</h3>
+                <p>Curso técnico para especialização em manutenção e inspeção de aeronaves.</p>
+                <p class="price">
+                    <span class="discount">R$ 15.000</span> R$ 12.500
+                </p>
+            </div>
+            <div class="course">
+                <h3>Aviação Executiva</h3>
+                <p>Capacitação em operação e gestão de jatos executivos e voos particulares.</p>
+                <p class="price">
+                    <span class="discount">R$ 40.000</span> R$ 36.000
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="localizacao">
+        <h2>Localização</h2>
+        <div class="location">
+            <p>Visite nossa sede para conhecer nossas instalações e esclarecer dúvidas sobre nossos cursos.</p>
+            <iframe 
+                class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.583358483605!2d-46.66162388447431!3d-23.58820346880486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c9d3021b8b%3A0xf79b26d08f12aa4d!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1697638497232!5m2!1spt-BR!2sbr" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Faculdade de Aviação. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Saiba mais sobre a Faculdade de Aviação, nossa missão, visão e valores.">
+    <title>Sobre Nós - Faculdade de Aviação</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #004080;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 1rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #004080;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        #hero {
+            background: url('https://media.gazetadopovo.com.br/2019/08/26152145/ca%C3%A7a-brasileiro-gripe-e-primeiro-voo1-960x540.jpg') no-repeat center center/cover;
+            height: 40vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            color: #fff;
+            text-align: center;
+        }
+        #hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        #hero .content {
+            position: relative;
+            z-index: 2;
+            max-width: 700px;
+        }
+        #hero h2 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        #sobre-nos {
+            padding: 2rem 1rem;
+            background: #f0f8ff;
+            text-align: center;
+        }
+        #sobre-nos p {
+            max-width: 800px;
+            margin: 0 auto 1.5rem;
+            font-size: 1.1rem;
+        }
+        .divider {
+            width: 100px;
+            height: 4px;
+            background: #004080;
+            margin: 1rem auto;
+        }
+        .highlights {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .highlight {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 2rem;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .highlight:hover {
+            transform: translateY(-5px);
+        }
+        .highlight h3 {
+            color: #004080;
+            margin-bottom: 1rem;
+        }
+        .highlight p, .highlight ul {
+            font-size: 1rem;
+            margin: 0;
+        }
+        .highlight ul {
+            padding: 0;
+            list-style: none;
+            margin-top: 1rem;
+        }
+        .highlight ul li {
+            margin: 0.5rem 0;
+        }
+        footer {
+            background: #004080;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    
+    <section id="hero">
+        <div class="content">
+            <h2>Sobre a Faculdade de Aviação</h2>
+            <p>Transformando sonhos em realidade há mais de 20 anos.</p>
+        </div>
+    </section>
+
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="https://canvas.instructure.com/login/canvas" target="_blank" >EAD</a>
+            <a href="adimissao.html">Admissão</a>
+            <a href="contato.html">Contato</a>
+            <a href="duvidas.html">Dúvidas</a>
+            <a href="cursos.html">Cursos</a>
+        </nav>
+    </header>
+
+    <section id="sobre-nos">
+        <h2>Quem Somos</h2>
+        <div class="divider"></div>
+        <p>
+            A <strong>Faculdade de Aviação</strong> é referência nacional na formação de profissionais para o setor aeronáutico. 
+            Com mais de 20 anos de experiência, oferecemos cursos especializados e infraestrutura de ponta para preparar nossos 
+            alunos para os desafios da aviação moderna.
+        </p>
+        <p>
+            Nossa missão é transformar sonhos em realidade, formando pilotos, engenheiros e comissários altamente qualificados 
+            para atender à crescente demanda do mercado de aviação. Valorizamos a segurança, a inovação e a paixão pelo voo.
+        </p>
+        <div class="highlights">
+            <div class="highlight">
+                <h3>Missão</h3>
+                <p>Capacitar profissionais de excelência que impulsionem o setor aéreo nacional e internacional.</p>
+            </div>
+            <div class="highlight">
+                <h3>Visão</h3>
+                <p>Ser reconhecida como a melhor instituição de ensino aeronáutico da América Latina.</p>
+            </div>
+            <div class="highlight">
+                <h3>Valores</h3>
+                <ul>
+                    <li>Segurança em primeiro lugar</li>
+                    <li>Compromisso com a excelência</li>
+                    <li>Inovação constante</li>
+                    <li>Paixão pelo setor aéreo</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Faculdade de Aviação. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
+<section id="cursos">
+    <h2>Nossos Cursos</h2>
+    <div class="courses">
+        <div class="course">
+            <h3>Piloto Comercial</h3>
+            <p>Formação completa para se tornar um piloto profissional.</p>
+            <p class="price">
+                <span class="discount">R$ 20.000</span> R$ 18.000
+            </p>
+        </div>
+        <div class="course">
+            <h3>Comissário de Bordo</h3>
+            <p>Aprenda tudo sobre segurança e atendimento a bordo.</p>
+            <p class="price">
+                <span class="discount">R$ 8.000</span> R$ 6.500
+            </p>
+        </div>
+        <div class="course">
+            <h3>Engenharia Aeronáutica</h3>
+            <p>Projete e desenvolva aeronaves de última geração.</p>
+            <p class="price">
+                <span class="discount">R$ 35.000</span> R$ 32.000
+            </p>
+        </div>
+        <div class="course">
+            <h3>Piloto de Helicóptero</h3>
+            <p>Treinamento prático e teórico para pilotar helicópteros com segurança.</p>
+            <p class="price">
+                <span class="discount">R$ 25.000</span> R$ 22.000
+            </p>
+        </div>
+        <div class="course">
+            <h3>Manutenção de Aeronaves</h3>
+            <p>Curso técnico para especialização em manutenção e inspeção de aeronaves.</p>
+            <p class="price">
+                <span class="discount">R$ 15.000</span> R$ 12.500
+            </p>
+        </div>
+        <div class="course">
+            <h3>Aviação Executiva</h3>
+            <p>Capacitação em operação e gestão de jatos executivos e voos particulares.</p>
+            <p class="price">
+                <span class="discount">R$ 40.000</span> R$ 36.000
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="localizacao">
+    <h2>Localização</h2>
+    <div class="location">
+        <p>Visite nossa sede para conhecer nossas instalações e esclarecer dúvidas sobre nossos cursos.</p>
+        <iframe 
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.583358483605!2d-46.66162388447431!3d-23.58820346880486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c9d3021b8b%3A0xf79b26d08f12aa4d!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1697638497232!5m2!1spt-BR!2sbr" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </div>
+</section>
