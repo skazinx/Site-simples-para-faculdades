@@ -1,0 +1,92 @@
+✈️ Portal da Escola de Aviação
+Bem-vindo ao repositório do Portal da Escola de Aviação! Este projeto é um site institucional simples, 
+desenvolvido com HTML5 e CSS3, para apresentar informações sobre uma escola de aviação, seus cursos, procedimentos de admissão e canais de contato.
+
+📂 Estrutura do Projeto
+bash
+Copiar
+Editar
+/projeto-escola-aviacao
+├── index.html
+├── sobrenos.html
+├── cursos.html
+├── adimissao.html
+├── duvidas.html
+├── contato.html
+└── caca.jpg
+
+📝 Descrição
+O projeto consiste em um site estático, com páginas informativas e de navegação simples. 
+Seu objetivo é apresentar a instituição e oferecer aos visitantes informações sobre os cursos de aviação, formas de contato e dúvidas frequentes.
+
+🔗 Links de Navegação
+O menu de navegação está disponível em todas as páginas e inclui os seguintes itens:
+
+Início (index.html)
+Sobre Nós (sobrenos.html)
+Cursos (cursos.html)
+Admissão (adimissao.html)
+Dúvidas Frequentes (duvidas.html)
+Contato (contato.html)
+
+📃 Descrição dos Arquivos
+Arquivo	Descrição
+index.html	Página inicial do site. Apresenta uma visão geral da escola de aviação.
+sobrenos.html	História e missão da escola. Informações institucionais.
+cursos.html	Lista dos cursos oferecidos, com breve descrição de cada um.
+adimissao.html	Procedimentos e requisitos para admissão na escola de aviação.
+duvidas.html	Página de perguntas frequentes (FAQ) com respostas às principais dúvidas.
+contato.html	Formulário para contato direto com a escola (HTML sem backend).
+caca.jpg	Imagem de um caça Gripen NG usada no visual do site.
+
+🚀 Como Rodar o Projeto Localmente
+Clone o repositório:
+
+bash
+Copiar
+Editar
+git clone https://github.com/seu-usuario/projeto-escola-aviacao.git
+Acesse o diretório do projeto:
+
+bash
+Copiar
+Editar
+cd projeto-escola-aviacao
+Abra o arquivo index.html no seu navegador:
+
+Clique duas vezes no arquivo index.html ou
+Use uma extensão de servidor local como o Live Server do VS Code para melhor experiência.
+
+📌 Funcionalidades
+Layout simples e responsivo
+Estrutura modular de navegação
+Informações completas sobre cursos e admissão
+FAQ com dúvidas frequentes
+Contato através de formulário (sem backend)
+
+🛠️ Tecnologias Utilizadas:
+HTML5
+CSS3
+Imagens estáticas (.jpg)
+
+🔧 Melhorias Futuras
+Integração com backend para envio de mensagens do formulário de contato
+Implementação de sistema de matrícula online
+Adição de páginas dinâmicas com JavaScript
+Melhoria na acessibilidade e SEO
+Inclusão de recursos multimídia (vídeos e imagens dos cursos)
+
+🤝 Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+Faça um fork do projeto.
+Crie uma branch para sua feature: git checkout -b minha-feature
+Faça commit das suas alterações: git commit -m 'Adicionei uma nova feature'
+Envie para a branch principal: git push origin minha-feature
+Abra um Pull Request
+
+📄 Licença
+Este projeto está sob a licença MIT.
+
+✉️ Contato
+Caso queira entrar em contato para sugestões ou parcerias, utilize o formulário disponível na página de Contato ou envie um e-mail para: leonardomabreu09@gmail.com.
